@@ -1,5 +1,22 @@
 @use 'helpers' as *;
 
 :root {
+  --color-light: #ffffff;
+  --color-dark: #313131;
 
+  --color-accent: #F54932;
+  --color-accent-blue: #3057A2;
+
+  --color-grey: #D6D6D6;
+
+  --color-btn: #1F1F1F;
+  --color-btn-hover: #FBCE51;
+
+  --font-family-base: 'Golos Text';
+  --font-family-accent: 'Merriweather';
+
+  --container-width: #{rem(1222)};
+  --contaner-padding-x: #{rem(20)};
+
+  --transition-duration: .2s;
 }
